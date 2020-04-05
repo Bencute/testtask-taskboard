@@ -2,7 +2,7 @@
 ## Настройка и запуск
 1. Клонировать репозиторий в папку хоста веб сервера
     ```
-    git clone https://github.com/Bencute/testtask_taskboard.git
+    git clone https://github.com/Bencute/testtask-taskboard.git
     ```
 2. Настроить окружение:
    - Скопировать и сконфигурировать файл настроек `/env/config/main.php` в `/frontend/config/main.php`
