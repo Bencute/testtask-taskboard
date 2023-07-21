@@ -1,5 +1,5 @@
 {
-    "name": "task/test",
+    "name": "task/board",
     "type": "project",
     "authors": [
         {
@@ -8,11 +8,17 @@
         }
     ],
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.2",
         "ext-pdo": "*",
         "ext-intl": "*",
         "ext-fileinfo": "*",
         "ext-json": "*",
         "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "System\\": "system/"
+        }
     }
 }
